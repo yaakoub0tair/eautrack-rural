@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WaterTracker – Smart Water</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.min.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Water That Comes To Life</h1>
+    <p>From a single drop to intelligent water control</p>
+    <div class="buttons">
+      <a href="#analytics">Explore Analytics</a>
+    </div>
+  </div>
+
+  <div id="three-container"></div>
+</section>
+
+<!-- ANALYTICS -->
+<section id="analytics" class="analytics-section">
+  <h2>Water Usage Analytics</h2>
+  <div class="charts-container">
+    <div class="chart-box">
+      <h3>Daily Usage</h3>
+      <canvas id="dailyChart"></canvas>
+    </div>
+    <div class="chart-box">
+      <h3>Monthly Comparison</h3>
+      <canvas id="monthlyChart"></canvas>
+    </div>
+    <div class="chart-box">
+      <h3>Usage Distribution</h3>
+      <canvas id="distributionChart"></canvas>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
