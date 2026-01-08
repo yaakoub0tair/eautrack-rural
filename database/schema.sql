@@ -1,3 +1,4 @@
+USE eautrack_rural;
 CREATE TABLE if not EXISTS user_profiles (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
