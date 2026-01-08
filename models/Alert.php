@@ -1,4 +1,5 @@
 <?php
+// models/Alert.php
 require_once __DIR__ . '/../core/Model.php';
 
 class Alert extends Model {

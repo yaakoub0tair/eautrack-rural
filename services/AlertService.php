@@ -1,4 +1,5 @@
 <?php
+// services/AlertService.php
 require_once __DIR__ . '/../models/Alert.php';
 require_once __DIR__ . '/../models/Consumption.php';
 require_once __DIR__ . '/../models/UserProfile.php';

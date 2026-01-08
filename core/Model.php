@@ -1,4 +1,5 @@
 <?php
+// core/Model.php
 abstract class Model {
     protected PDO $db;
     protected string $table;

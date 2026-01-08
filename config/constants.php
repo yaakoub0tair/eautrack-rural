@@ -1,4 +1,5 @@
 <?php
+//congig/constants.php
 // Seuils d'alertes
 define('ALERT_THRESHOLD_LOW', 0.5);     // 50% du quota
 define('ALERT_THRESHOLD_MEDIUM', 0.8);  // 80% du quota

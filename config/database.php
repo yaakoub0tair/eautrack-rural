@@ -1,4 +1,5 @@
 <?php
+// config/database.php
 return [
     'host' => 'localhost',
     'dbname' => 'eautrack_rural',

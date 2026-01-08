@@ -1,4 +1,5 @@
 <?php
+// models/Badge.php
 require_once __DIR__ . '/../core/Model.php';
 
 class Badge extends Model {

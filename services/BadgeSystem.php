@@ -1,4 +1,5 @@
 <?php
+// services/BadgeSystem.php
 require_once __DIR__ . '/../models/Badge.php';
 require_once __DIR__ . '/../models/Consumption.php';
 require_once __DIR__ . '/../models/UserProfile.php';
